@@ -196,3 +196,28 @@ footer nav a {
 #about{
     width: 100%;
 }
+.aboutPics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.aboutPics div{
+    width: 45%;
+    margin: 1%;
+    margin-top: 5%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+.aboutPics h2{
+    margin: 3% 0;
+}
+.aboutPics p{
+    margin: 4% 0;
+}
+.aboutPics button{
+    background-color: white;
+    border: 2px solid black;
+    padding: 3% 7%;
+    font-size: 15px;
+    border-radius: 10px;
+}
