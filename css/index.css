@@ -101,9 +101,7 @@ nav a:hover{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-#about{
-    width: 100%;
-}
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -209,6 +207,19 @@ footer nav a {
     margin-top: 5%;
     border-bottom: 1px dashed black;
     padding-bottom: 2%;
+}
+
+@media (max-width: 600px){
+    .containder{
+        width: 600px;
+    }
+    .aboutPics{
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    .aboutPics div{
+        width: 95%;
+    }
 }
 .aboutPics h2{
     margin: 3% 0;
