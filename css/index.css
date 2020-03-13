@@ -99,6 +99,9 @@ nav a:hover{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+#about{
+    width: 100%;
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -187,4 +190,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE STYLE*/
+#about{
+    width: 100%;
 }
