@@ -65,7 +65,9 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+body{
+    margin: 0 2%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -220,4 +222,7 @@ footer nav a {
     padding: 3% 7%;
     font-size: 15px;
     border-radius: 10px;
+}
+.aboutWork{
+    margin: 5% 3%;
 }
