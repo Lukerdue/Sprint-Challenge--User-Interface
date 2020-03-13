@@ -70,7 +70,20 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0;
+}
+nav a{
+    margin-top:2%;
+    text-decoration: none;
+    color: gray;
+}
+nav a:hover{
+    color: black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +91,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content img{
+    margin: 3% 0;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
