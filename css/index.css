@@ -210,8 +210,8 @@ footer nav a {
 }
 
 @media (max-width: 600px){
-    .containder{
-        width: 600px;
+    .container{
+        width: 575px;
     }
     .aboutPics{
         flex-flow: column nowrap;
@@ -219,6 +219,9 @@ footer nav a {
     }
     .aboutPics div{
         width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 .aboutPics h2{
