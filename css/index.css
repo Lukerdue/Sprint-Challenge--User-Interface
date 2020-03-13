@@ -215,7 +215,7 @@ footer nav a {
     }
     .aboutPics{
         flex-flow: column nowrap;
-        justify-content: center;
+        align-items: center;
     }
     .aboutPics div{
         width: 95%;
